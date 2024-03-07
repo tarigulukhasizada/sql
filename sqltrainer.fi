@@ -1,3 +1,5 @@
+link to the exercise site: https://sql-trainer.azurewebsites.net/#10
+
 select name from movies
 select name, year from movies
 select name from movies where year=1940
