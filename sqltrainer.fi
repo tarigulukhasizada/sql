@@ -1,1 +1,5 @@
 select name from movies
+select name, year from movies
+select name from movies where year=1940
+select name from movies where year <1950
+select name from movies where year between 1940 and 1950
