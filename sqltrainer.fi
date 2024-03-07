@@ -3,3 +3,8 @@ select name, year from movies
 select name from movies where year=1940
 select name from movies where year <1950
 select name from movies where year between 1940 and 1950
+select name from movies where year <1950 or year> 1980
+select name from movies where not year=1940
+select name from movies order by name asc
+select name from movies order by name desc
+select name, year from movies order by year desc, name asc
